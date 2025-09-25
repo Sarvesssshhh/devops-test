@@ -1,0 +1,36 @@
+/c/Users/SARVESH/exam
+SARVESH
+MemTotal:       16170096 kB
+MemFree:         8359060 kB
+HighTotal:             0 kB
+HighFree:              0 kB
+LowTotal:       16170096 kB
+Filesystem      Size  Used Avail Use% Mounted on
+E:/git/Git      310G  130G  181G  42% /
+C:              311G  233G   78G  75% /c
+D:              310G  111G  200G  36% /d
+total 26
+drwxr-xr-x 1 SARVESH 197121    0 Sep 25 10:55 .
+drwxr-xr-x 1 SARVESH 197121    0 Sep 25 10:52 ..
+-rw-r--r-- 1 SARVESH 197121 1201 Sep 25 10:53 Readme.md
+-rw-r--r-- 1 SARVESH 197121  341 Sep 25 10:58 script.log
+-rwxr-xr-x 1 SARVESH 197121  266 Sep 25 10:58 script.sh
+#!/bin/bash
+
+# Print present working directory
+pwd
+
+# Print current user’s name
+whoami
+
+# Print memory resources
+cat /proc/meminfo | head -5
+
+# Print disk space
+df -h
+
+# List all files in current directory
+ls -la
+
+# Print the contents of this script
+cat script.sh
