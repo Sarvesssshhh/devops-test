@@ -25,5 +25,19 @@ Rollback means undoing a change if something breaks. For example, if a new deplo
 - If I make a mistake, I can rollback by resetting my branch or reverting a commit, just like rolling back a failed deployment.  
 - Pushing changes to GitHub is like collaboration in a real DevOps environment, where teams share and review code.
 
+## How I Completed the Assignment
 
+1. Created a directory called `exam` in my home directory.  
+2. Inside it, I made a file called `Readme.md` and wrote definitions of DevOps, CI/CD, Containerization, and Rollback.  
+3. I also added a short section connecting these concepts back to my assignment.  
+4. Next, I created a shell script (`script.sh`) that:  
+   - Prints the working directory  
+   - Prints the current user  
+   - Shows memory and disk usage  
+   - Lists all files in the directory  
+   - Prints the script’s own contents  
+5. I made the script executable and ran it, saving the output into `script.log`.  
+6. I then created a new GitHub repository and initialized Git inside my `exam` folder.  
+7. I created a new branch called `feature`, committed all three files (`Readme.md`, `script.sh`, and `script.log`), and pushed them to GitHub.  
+8. The `main` branch was left clean, as required.
 
